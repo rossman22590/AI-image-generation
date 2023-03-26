@@ -21,10 +21,3 @@ EXPOSE 3000
 
 # Start the application
 CMD ["npm", "run", "start"]
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
