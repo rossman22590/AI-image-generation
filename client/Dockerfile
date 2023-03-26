@@ -10,6 +10,9 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install
 
+# Add the start script to package.json
+RUN echo '{ "scripts": { "start": "node index.js" } }' > package.json
+
 # Copy the rest of the application code to the working directory
 COPY . .
 
